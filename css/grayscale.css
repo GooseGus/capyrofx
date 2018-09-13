@@ -140,11 +140,7 @@ form{
 	  
 }
 
-.espaco{
-		transition: all 0.4s;
-	 letter-spacing: 5px;
-	
-}
+
 
 .capaTxt h3{
 	 
@@ -165,7 +161,7 @@ form{
 }
 
 
-.seperador{
+.separator{
 	
 	margin-left:1%;
 	width:98%;
@@ -175,7 +171,7 @@ form{
 	border-bottom: 1px solid white;
 }
 
-.seperador  h3{
+.separator  h3{
 	margin-left:1.5%;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -386,7 +382,6 @@ form{
 
   .mini	{
     display: block;
-    vertical-align: left;
 	  height:47%;	
     font-size: 100px;
   	margin-left:55px;
