@@ -4,7 +4,7 @@ Technologies: Html5+CSS3, Javascript, JQuery, Bootstrap
 
 ![alt text](https://mir-s3-cdn-cf.behance.net/project_modules/1400/9d4af161149173.5a6579fb906f1.png "Home")
 
-## H2 Libaries
+## Libaries
 * Bootstrap
 * font-awesome
 * jquery-easing
