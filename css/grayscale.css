@@ -1,0 +1,644 @@
+/*!
+ * Start Bootstrap - Grayscale v4.0.0-beta (http://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgb(0, 0, 0);}
+  
+
+html {
+	
+  width: 100%;
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+ 
+  
+p {
+	font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 25px; }
+  @media (min-width: 768px) {
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 0 0 35px; } }
+
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #42DCA3;
+  }
+  a:focus, a:hover {
+    text-decoration: none;
+    color: #1d9b6c; }
+	
+
+	
+form{
+	width:80%;
+	margin:auto;
+}
+	
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+
+
+
+#gallery {
+	max-width: 90%;
+	margin-right: auto;
+    margin-left: auto;
+   
+	padding: 5vh 15px;
+    width: 100%;
+
+}
+
+
+
+.middle{
+	
+	
+	margin:auto;
+	padding:0px;
+	 background-color: rgb(20, 20, 20);
+}
+
+
+.capas{
+	padding:10px 20px;
+}
+
+.capa{
+	overflow:hidden;
+	height:400px; 
+
+}
+
+
+.capaIMG{
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+
+
+
+.imagemCube{
+	
+	
+	object-fit:cover;
+	object-position:center;
+}
+
+
+
+
+.capaTxt{
+	 color:white;
+	padding:15vh 10% 0 10%;
+	text-shadow: 1px 1px 3px grey;
+	
+}
+
+.capaTxt h1{
+	 
+	font-family: 'Cabin Condensed', sans-serif;
+	font-weight: 700;
+	margin-bottom:10px;
+	letter-spacing: 2px;
+	transition: all 0.4s;
+	  
+}
+
+.espaco{
+		transition: all 0.4s;
+	 letter-spacing: 5px;
+	
+}
+
+.capaTxt h3{
+	 
+	font-family: 'Cabin Condensed', sans-serif;
+	font-weight: 400;
+	margin-bottom:0px;
+}
+
+
+
+.tooll{
+	 background-color: rgb(20, 20, 20);
+	display:none;
+	transition: all 0.4s;
+  min-height:200px; 
+  padding-top:40px;
+  padding-top:30px;
+}
+
+
+.seperador{
+	
+	margin-left:1%;
+	width:98%;
+	margin-bottom:8px;
+	margin-top:5vh;
+	height:25px;
+	border-bottom: 1px solid white;
+}
+
+.seperador  h3{
+	margin-left:1.5%;
+	font-weight: 400;
+	letter-spacing: 3px;
+	font-size: 14px;
+  }
+
+
+  
+.img-fluid{
+	cursor: pointer;
+	
+}
+
+
+
+#gallery .banner{
+	height:150px; 
+	background-repeat: no-repeat;
+  background-position: center ; 
+	background-size: 120%; 
+}
+
+.Up{
+	position: absolute;
+	transition: all 0.4s;
+	bottom:70px;	
+}
+
+.goDown{
+  position: absolute;
+	bottom:0px;
+	margin:10px;
+}
+
+
+
+
+#gallery .banner:hover{	 
+  background-size: 130%;   		
+}
+.mini h1{font-size: 70px; }
+
+.mini h2{font-size: 30px; }
+
+
+
+
+#mainNav {	
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: black;
+}
+  
+#mainNav .container {
+	margin-right:20px;
+	margin-left:40px;
+	min-width:95%;
+}
+
+#mainNav .navbar-toggler {
+ 
+  margin-right:5%;
+  font-size: 14px;
+  padding: 11px;
+  color: white;
+  border: 1px solid white; 
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700; 
+}
+
+#mainNav a {
+  color: white; 
+}
+
+#mainNav .navbar-nav .nav-item {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out; 
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent; 
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent; 
+}
+
+#mainNav .nav-link:hover {
+		color:grey;
+}
+
+#mainNav .dona {
+	color: #42DCA3;
+}
+
+#mainNav .dona:hover {
+	background-color: #42DCA3;
+	color: white;
+}
+
+@media (max-width: 768px) {
+  #gallery h2{
+    font-size:20px; 
+  }
+  
+
+}
+
+@media (min-width: 992px) {
+  .mini h2{font-size: 75px; }
+  #mainNav {
+     padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    background: transparent; 
+  }
+	  
+  #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: black; 
+  }
+		
+  #mainNav .nav-link.active {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3); 
+  }
+
+  #mainNav .nav-link.active:hover {
+    color: white; 
+  } 
+}
+
+
+
+		  
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background-attachment: fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+  
+.intro-body {
+  display: table-cell;
+  vertical-align: middle; 
+}
+
+.masthead .intro-body .brand-heading {font-size: 60px; }
+.masthead .intro-body .intro-text {font-size: 18px; }
+	  
+.mini	{
+	width: 100%;
+	height:35%;	
+  
+	padding-top:15vh;
+	display: table;
+	 background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background-attachment: fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+	
+.intro-body{
+  
+  display: table-cell;
+  vertical-align: middle;
+ 
+  
+ 
+}
+  
+ .posi{
+  text-align: center;
+ }
+    
+ 
+
+ 
+@media (min-width: 768px) {
+
+  .mini h1{font-size: 94px; }
+
+  .mini	{
+    display: block;
+    vertical-align: left;
+	  height:47%;	
+    font-size: 100px;
+  	margin-left:55px;
+    padding-top: 17vh;
+  }	  
+
+  .img-fluid{
+    cursor: pointer;
+    width:100%;
+    height:30vh;
+  }
+	  
+  
+  
+  .masthead {
+      height: 100%;
+      padding: 0; }
+
+  .masthead .intro-body .brand-heading {
+        font-size: 100px; }
+  .masthead .intro-body .intro-text {
+        font-size: 22px; } 
+}
+
+.resumo{
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.btn {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.btn-default {
+  color: #42DCA3;
+  border: 1px solid #42DCA3;
+  background-color: transparent; 
+}
+
+.btn-default:focus, .btn-default:hover {
+  color: black;
+  border: 1px solid #42DCA3;
+  outline: none;
+  background-color: #42DCA3;
+}
+
+
+  
+@media (min-width: 992px) {
+  .middle{
+    min-width: 700px;
+   }
+       
+	
+.btn-circle {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  line-height: 38px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  background: transparent; 
+}
+
+.btn-circle:focus, .btn-circle:hover {
+  color: white;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1); 
+}
+
+.content-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.download-section {
+  color: white;
+  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background-attachment: fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+#map {
+  width: 100%;
+  height: 300px; 
+}
+
+
+
+@media (min-width: 992px) {
+  .posi{
+    text-align: left;
+   }
+
+  .content-section {
+    padding-top: 200px;
+    padding-bottom: 200px; 
+  }
+  #map {
+    height: 350px; 
+  } 
+}
+
+
+
+
+ul.banner-social-buttons {margin-top: 0; }
+
+@media (max-width: 1199px) {
+  ul.banner-social-buttons { margin-top: 15px; } 
+}
+
+@media (max-width: 767px) {
+
+  ul.banner-social-buttons li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0; 
+  }
+
+  ul.banner-social-buttons li:last-child { margin-bottom: 0; } 
+}
+
+footer { padding: 50px 0; }
+footer p {
+  font-size: 14px;
+  margin: 0; 
+}
+
+::-moz-selection {
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+  text-shadow: none; 
+}
+
+::selection {
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+  text-shadow: none; 
+}
+
+img::selection {background: transparent; }
+
+img::-moz-selection {background: transparent; }
+
+body {-webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+  
+  
+  /* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    
+    padding-top: 22vh; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+	
+}
+
+/* Modal Content (Image) */
+.modal-content {
+	z-index: -1; /* Sit on top */
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+	
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+	margin-top:20px;
+}
+.arrow { 
+    margin:0px 30px;
+	
+}
+.fa-chevron-right{
+	color:#ffffff;
+	cursor: pointer;
+}
+
+.fa-chevron-left{
+	color:#ffffff;
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #gallery h2{
+    font-size:20px; 
+  }
+  
+
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
