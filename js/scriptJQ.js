@@ -32,7 +32,7 @@ function prepic(){
 				
 	
 	$(document).ready(function(){
-		//corrigir img fluid
+		
 		
 		IMGaddress.splice(0,IMGaddress.length)
 		
