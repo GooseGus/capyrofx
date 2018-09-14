@@ -9,8 +9,7 @@ Technologies: Html5+CSS3, Javascript, JQuery, Bootstrap
 
 * Bootstrap
 * font-awesome
-* jquery-easing
-* popper.js
+* jquery
 
 ![Tools](https://mir-s3-cdn-cf.behance.net/project_modules/1400/eeb58061149173.5a6579fb901fa.png)
 ![Galeries](https://mir-s3-cdn-cf.behance.net/project_modules/1400/9ee76161149173.5a6579fb90bda.png)
